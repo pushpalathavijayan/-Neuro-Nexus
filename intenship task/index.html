@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><h3>The Ultimate Burger</h3></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Particles Background -->
+<div id="particles-js"></div>
+
+<!-- Header -->
+<header>
+  <div class="logo"> <h1 style="color: red;">Burger Beats!!!</h1></div>
+  <nav>
+    <a href="#">Home </a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+    
+
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="content">
+    <h1>THE ULTIMATE <br> BURGER HAUL</h1>
+    <p> Dive into a world of juicy, handcrafted burgers made with the finest ingredients.
+        Every bite delivers a burst of bold flavors, crispy textures, and unforgettable satisfaction.
+        Whether you're craving a classic cheeseburger, a spicy deluxe, or a plant-based wonder, Burger Haull is your ultimate destination for mouthwatering experiences.
+        Get ready to haul your hunger away — one delicious burger at a time!.</p>
+    <div class="buttons">
+      <button>Order Now</button>
+      <button class="secondary">View more</button>
+    </div>
+  </div>
+  <img src="burger.jpg" alt="Burger" class="hero-image">
+</section>
+
+<!-- Food Gallery Section -->
+<section class="gallery">
+  <div class="small-card">
+    <img src="burger2.jpg" alt="Burger 1">
+  </div>
+  <div class="small-card">
+    <img src="burger3.jpg" alt="Burger 2">
+  </div>
+  <div class="small-card">
+    <img src="burger4.jpg" alt="Burger 3">
+  </div>
+  <div class="small-card">
+    <img src="burger5.jpg" alt="Burger 4">
+  </div>
+</section>
+
+<!-- Particle JS Script -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS('particles-js', {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": { "enable": true, "value_area": 800 }
+      },
+      "color": { "value": "#ffffff" },
+      "shape": { "type": "circle" },
+      "opacity": { "value": 0.5 },
+      "size": { "value": 3 },
+      "move": { "enable": true, "speed": 2 }
+    },
+    "interactivity": {
+      "events": { "onhover": { "enable": true, "mode": "repulse" } }
+    },
+    "retina_detect": true
+  });
+</script>
+<section id="contact" style="padding: 50px; background-color: #111; color: white;">
+  <h2 style="text-align: center; margin-bottom: 30px;">Contact Us</h2>
+  <form style="max-width: 600px; margin: auto;">
+    <div style="margin-bottom: 20px;">
+      <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required 
+             style="width: 100%; padding: 10px; border-radius: 5px; border: none;">
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required 
+             style="width: 100%; padding: 10px; border-radius: 5px; border: none;">
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required 
+                style="width: 100%; padding: 10px; border-radius: 5px; border: none;"></textarea>
+    </div>
+
+    <button type="submit" 
+            style="background-color: orange; border: none; padding: 12px 30px; 
+                   border-radius: 5px; color: black; font-weight: bold; cursor: pointer;">
+      Send Message
+    </button>
+  </form>
+</section>
+
+
+<footer>
+  <div class="footer-box">
+    <div class="footer-logo">
+      <h3>Burger Haull</h3>
+    </div>
+    <div class="footer-description">
+      <p>Serving bold flavors and unforgettable vibes, one burger at a time. Join the haul!</p>
+    </div>
+    <div class="footer-socials">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+    
+    <div class="footer-bottom">
+      <p>© 2025 Burger Beats. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+
+</body>
+</html>
